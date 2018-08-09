@@ -1,7 +1,4 @@
 {
-    "env": {
-      "browser": true
-    },
     "parserOptions": {
       "ecmaVersion": 6
     },
@@ -10,6 +7,7 @@
       "space-before-function-paren": [1, "never"],
       "eqeqeq": 1,
       "space-infix-ops": 1,
+      
       "comma-spacing": 1,
       "brace-style": 1,
       "no-multiple-empty-lines": 1,
@@ -29,4 +27,4 @@
       "indent": [1, 2],
       "no-array-constructor": 1
     }
-  }
+   }
