@@ -10,14 +10,17 @@ let company = document.getElementById('company');
 let host = document.getElementById('host');
 let registerBtn = document.getElementById('register');
 
+registerBtn.addEventListener('click', () => {
+  let nameValue = nameUser.value;
+  let mailValue = mailUser.value;
+  let companyValue = company.value;
+  let hostValue = host.value;
 
-
-const saveRegister = () => {
   db.collection('register').add({
-    name: 
-    mail: 
-    company:
-    host:
+    name: nameValue,
+    mail: mailValue,
+    company: companyValue,
+    host: hostValue
   })
     .then(function(docRef) {
       console.log('Document written with ID: ', docRef.id);
@@ -25,4 +28,5 @@ const saveRegister = () => {
     .catch(function(error) {
       console.error('Error adding document: ', error);
     });
-};
+});
+
