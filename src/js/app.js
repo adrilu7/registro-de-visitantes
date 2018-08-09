@@ -15,12 +15,14 @@ registerBtn.addEventListener('click', () => {
   let mailValue = mailUser.value;
   let companyValue = company.value;
   let hostValue = host.value;
+  const yearDateTime = firebase.firestore.FieldValue.serverTimestamp();
 
   db.collection('register').add({
     name: nameValue,
     mail: mailValue,
     company: companyValue,
-    host: hostValue
+    host: hostValue,
+    dateTime: yearDateTime
   })
     .then(function(docRef) {
       console.log('Document written with ID: ', docRef.id);
