@@ -1,7 +1,7 @@
 {
-  "name": "registro",
+  "name": "registro-de-visitantes",
   "version": "1.0.0",
-  "description": "registro de visitantes ",
+  "description": "registro de visitantes",
   "main": "index.js",
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrilu7/registro-de-visitantes.git"
+    "url": "git+https://github.com/soberanesmajo/registro-de-visitantes.git"
   },
-  "author": "desarrolladoras de registro",
+  "author": "desarrolladorasde registro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adrilu7/registro-de-visitantes/issues"
+    "url": "https://github.com/soberanesmajo/registro-de-visitantes/issues"
   },
   "dependencies": {
     "chai": "^4.1.2",
@@ -28,5 +28,5 @@
     "nyc": "^11.7.1",
     "opener": "^1.4.3"
   },
-  "homepage": "https://github.com/adrilu7/registro-de-visitantes#readme"
+  "homepage": "https://github.com/soberanesmajo/registro-de-visitantes#readme"
 }
