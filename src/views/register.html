@@ -12,7 +12,7 @@
   <label for="name">Nombre completo</label>
   <input id="name" type="text">
 </br>
-  <label for="mail">Correo</label>
+  <label for="">Correo</label>
   <input id="mail" type="text">
 </br>
   <label for="company">Empresa que visita</label>
@@ -22,39 +22,11 @@
   <input id="host" type="text">
   <button id="register">Registrar</button>
 
-</br>
-
-<h3>Tomarte una foto con JavaScript</h3>
-
-<div class="container">
-
-  <div class="app">
-    <video id="camera-stream"></video>
-    <a href="#" id="start-camera" class="visible">Iniciar camara</a>
-
-    <img id="snap">
-
-    <p id="error-message"></p>
-
-    <div class="controls">
-      <a href="#" id="delete-photo" title="Eliminar Foto" class="disabled"><i class="material-icons">Eliminar</i></a>
-      <a href="#" id="take-photo" title="Tomar Foto"><i class="material-icons">Tomar foto</i></a>
-      <a href="#" id="download-photo" download="foto.jpg" title="Descargar Foto" class="disabled"><i class="material-icons">Guardar</i></a>
-    </div>
-
-    <canvas></canvas>
-
-  </div>
-
-</div>
-
-</div>
-
   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
-  <script src="../js/data.js"></script>
-  <script src="../js/app.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
