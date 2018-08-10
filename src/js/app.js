@@ -31,6 +31,8 @@ registerBtn.addEventListener('click', () => {
       console.error('Error adding document: ', error);
     });
 });
+<<<<<<< HEAD
+=======
 
 // Agregar evento para el botón de inicio de sesión.
 
@@ -57,3 +59,4 @@ firebase.auth().onAuthStateChanged(firebaseUser => { // cuando detecta que el us
 });
   
 
+>>>>>>> upstream/master
