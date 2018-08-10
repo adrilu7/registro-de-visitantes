@@ -1,6 +1,4 @@
-body {
-    background: #A9CCE3;
-  }
+
   
   .title {
     color: #17202A;
@@ -36,3 +34,41 @@ body {
       -webkit-transform: rotate(360deg);
     }
   }
+  /*FORMULARIO*/
+.cuerpo{
+  background-image: url("../image/pexels-photo-380768.jpeg");
+}
+.formulario{
+  background-color: white;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  height: 200px;
+  margin-top: 170px;
+  width: 50%;
+  padding: 38px;
+}
+.centrado{
+  display: table;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ /*INDEX*/
+ .cuerpo1{
+   background-image: url("../image/pexels-photo-442574.jpeg");
+ }
+ .boton-ingreso{
+  margin-top: 700px;
+  margin-left: auto;
+  font-size: 54px;
+  color: white;
+  margin-right: auto;
+  display: block;
+  background: black;
+  padding: 10px;
+}
+
