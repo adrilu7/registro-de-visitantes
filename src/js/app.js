@@ -56,4 +56,3 @@ firebase.auth().onAuthStateChanged(firebaseUser => { // cuando detecta que el us
   }
 });
   
-
