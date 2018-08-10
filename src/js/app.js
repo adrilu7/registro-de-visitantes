@@ -15,7 +15,7 @@ registerBtn.addEventListener('click', () => {
   let mailValue = mailUser.value;
   let companyValue = company.value;
   let hostValue = host.value;
-  const yearDateTime = firebase.firestore.FieldValue.serverTimestamp();
+  let yearDateTime = firebase.firestore.FieldValue.serverTimestamp();
 
   db.collection('register').add({
     name: nameValue,
@@ -31,4 +31,3 @@ registerBtn.addEventListener('click', () => {
       console.error('Error adding document: ', error);
     });
 });
-
