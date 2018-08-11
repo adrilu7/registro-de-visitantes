@@ -1,6 +1,6 @@
 visitorRegistration.initializeFirebase();
 
-const db = firebase.firestore();
+ db = firebase.firestore();
 
 const table = document.getElementById('table-registers');
 const registersRef = db.collection('register');
