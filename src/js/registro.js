@@ -1,3 +1,5 @@
+// Este archivo es para el registro del administrador y no aparece en la app.
+
 visitorRegistration.initializeFirebase();
 
 const mailAdminReg = document.getElementById('mail-register');
