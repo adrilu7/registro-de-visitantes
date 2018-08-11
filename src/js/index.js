@@ -11,15 +11,15 @@ registersRef.get().then(function(querySnapshot) {
     console.log(name);
     let email = doc.data().mail;
     let company = doc.data().company;
-    let personVisit = doc.data().host;
-    let hour = doc.data().dataTime;
+    let host = doc.data().host;
+    let hour = doc.data().dateTime;
 
     table.innerHTML += `<tr>
    
       <td>${name}</td>
       <td>${email}</td>
       <td>${company}</td>
-      <td>${personVisit}</td>
+      <td>${host}</td>
       <td>${hour}</td>
       </tr>`;
   });

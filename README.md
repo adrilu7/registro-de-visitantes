@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
  ### Perfil de Usuario 
 Fanny es  una recién egresada de la carrera en Diseño y Comunicación  Visual, está por  asistir a su primera entrevista de trabajo, por lo cual asiste a un wework, lugar donde se realizara dicha entrevista pero al ser invitada debe cumplir con un previo registro para poder tener  acceso al edificio, al llenar este formulario se siente confundida por el tipo de información que se le está pidiendo ya que hay datos que desconoce como el piso al que va a visitar  o cargo de la persona con la que va a entrevistar, por la misma confusión no puede terminar de llenar el formulario para previo registro, teniendo que recurrir al recepcionista para ser asistida, después de 10 min más tarde Fanny logra culminar su registro y así poder acceder, Fanny preocupada entra corriendo, ya que va tarde a su futura entrevista.
 
@@ -57,4 +55,3 @@ El que sea lo mas rápido de llenar, por lo tanto que sea el menor de vistas pos
 Se propone tener un login para administrador para que este pueda tener un registro y control de todas la visitas.
 Al momento de registro se propone que el invitado pueda confirmar o editar la información registrada.
 Se propone un login para usuario ya registrado en caso de haber perdido u olvidado su tarjeta de acceso y que pueda adquirir una tarjeta provisional de un día para poder tener acceso tanto a las instalaciones y servicios.
->>>>>>> upstream/master
