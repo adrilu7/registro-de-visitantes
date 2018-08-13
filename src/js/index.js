@@ -2,17 +2,23 @@ visitorRegistration.initializeFirebase();
 
 const db = firebase.firestore();
 
-// Cerrar sesión
-// Se manda llamar el botón signout para detonar evento
-document.getElementById('signout').addEventListener('click', event => {
-// Para que no se recargue la pagina
-  event.preventDefault();
-  // Se manda llamar la funnción signOut
-  visitorRegistration.signOut();
-});
+// // Cerrar sesión
+// // Se manda llamar el botón signout para detonar evento
+// document.getElementById('signout').addEventListener('click', event => {
+// // Para que no se recargue la pagina
+//   event.preventDefault();
+//   // Se manda llamar la funnción signOut
+//   visitorRegistration.signOut();
+// });
 
 const table = document.getElementById('table-registers');
 const registersRef = db.collection('register');
+const signOutBtn = document.getElementById('signout')
+
+signOutBtn.addEventListener('click' , event => {
+  visitorRegistration.signOut();
+})
+
 
 registersRef.get().then(function(querySnapshot) {
   querySnapshot.forEach(function(doc) {
