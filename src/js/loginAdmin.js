@@ -18,7 +18,7 @@ window.visitorRegistration = {
       .then(result => {
         // Se utiliza para obtener el usuario que accedio
         let user = firebase.auth().currentUser;
-        // Se le manda un correo de verificación al usuario 
+        // Se le manda un correo de verificación al usuario
         user.sendEmailVerification();
       })
       .then(result => {
@@ -57,7 +57,7 @@ window.visitorRegistration = {
             type: 'error',
             title: 'Usuario ya registrado',
             text: 'Verifica tus datos'
-          }); 
+          });
         }
       });
   },
@@ -95,10 +95,9 @@ window.visitorRegistration = {
   // Cerrar sesión
   signOut: () => {
     // Función de firebase para cerrar sesión
-      // firebase.auth().signOut()
-      location.href = '../index.html';
-    
-} 
-}
+    // firebase.auth().signOut()
+    location.href = '../index.html';
+  }
+};
 
 
