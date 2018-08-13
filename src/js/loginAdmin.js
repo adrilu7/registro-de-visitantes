@@ -91,6 +91,5 @@ window.visitorRegistration = {
     // Función de firebase para cerrar sesión
     // firebase.auth().signOut()
     location.href = '../index.html';
-
   }
-}
+};
