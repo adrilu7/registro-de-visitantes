@@ -86,3 +86,7 @@
 #miCameraOnline button{
   clear:both;
   margin:30px;}
+
+  .ocultar{
+    display: none;
+  }

@@ -2,17 +2,18 @@
   let streaming = false,
     video = document.querySelector('#video'),
     canvas = document.querySelector('#canvas'),
-    photo = document.querySelector('#photo'),
     startbutton = document.querySelector('#startbutton'),
-    width = 320,
-    height = 0;
+    firstSec = document.getElementById('section1');
+  secondSec = document.getElementById('section2');
+  let teminar = document.getElementById('teminar');
+  width = 320,
+  height = 0;
   // obtener video, compatibilidad de navegadores
   navigator.getMedia = (navigator.getUserMedia ||
                          navigator.webkitGetUserMedia ||
                          navigator.mozGetUserMedia ||
                          navigator.msGetUserMedia);
-  // Le solicitamos al navegador que nos dé un video sin audio y obtenemos
-  // una secuencia (stream) en la función de retrollamada:
+  // Le solicitamos al navegador que nos dé un video sin audio y obtenemos una secuencia stream
   navigator.getMedia(
     {
       video: true,
@@ -51,12 +52,14 @@
     canvas.height = height;
     canvas.getContext('2d').drawImage(video, 0, 0, width, height);
     var data = canvas.toDataURL('image/png');
-    photo.setAttribute('src', data);
+    firstSec.classList.add('ocultar');
+    secondSec.classList.remove('ocultar');
   };
   // capturar una imagen, ahora necesitamos capturar una imagen utilizando (canvas).
   // Asignamos un manejador de eventos al botón de inicio para llamar a la función de takepicture.
   startbutton.addEventListener('click', (ev) => {
     takepicture();
     ev.preventDefault();
+    terminar.classList.remove('ocultar');
   }, false);
 })();
