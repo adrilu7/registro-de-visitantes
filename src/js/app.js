@@ -1,6 +1,6 @@
 visitorRegistration.initializeFirebase();
 
-const db = firebase.firestore();
+ db = firebase.firestore();
 
 // Función para guardar data de registro.
 
