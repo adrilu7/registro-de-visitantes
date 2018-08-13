@@ -6,4 +6,4 @@ document.getElementById('login').addEventListener('click', event => {
   const passwordAdmin = document.getElementById('login-password').value;
   visitorRegistration.loginAdmin(emailAdmin, passwordAdmin);
 });
-  
+ 
