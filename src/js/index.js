@@ -1,6 +1,6 @@
 visitorRegistration.initializeFirebase();
 
-const db = firebase.firestore();
+db = firebase.firestore();
 
 // Cerrar sesión
 // Se manda llamar el botón signout para detonar evento
@@ -12,7 +12,7 @@ document.getElementById('signout').addEventListener('click', event => {
 });
 
 const table = document.getElementById('table-registers');
-const registersRef = db.collection('register');
+const registersRef = db.collection('register').orderBy('dateTime', 'desc');
 
 registersRef.get().then(function(querySnapshot) {
   querySnapshot.forEach(function(doc) {
