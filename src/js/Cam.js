@@ -2,7 +2,6 @@
   let streaming = false,
     video = document.querySelector('#video'),
     canvas = document.querySelector('#canvas'),
-    // photo = document.querySelector('#photo'),
     startbutton = document.querySelector('#startbutton'),
     firstSec = document.getElementById('section1');
     secondSec = document.getElementById('section2');
@@ -43,9 +42,6 @@
       canvas.setAttribute('height', height);
       streaming = true;
     }
-    // canvas.style.display ='none';
-    // photo.style.display = 'none';
-    // secondSec.style.display = 'none'
   }, false);
 
   takepicture = () => {
@@ -55,7 +51,6 @@
     var data = canvas.toDataURL('image/png');
     firstSec.classList.add('ocultar');
     secondSec.classList.remove('ocultar');
-    // photo.setAttribute('src', data);
   };
 
 
