@@ -16,12 +16,18 @@ window.visitorRegistration = {
     // Función de firebase para crer usuario tomando como parametros email y contraseña
     firebase.auth().createUserWithEmailAndPassword(emailAdmin, passwordAdmin)
       .then(result => {
+        // Se utiliza para obtener el usuario que accedio
+        let user = firebase.auth().currentUser;
+        // Se le manda un correo de verificación al usuario 
+        user.sendEmailVerification();
+      })
+      .then(result => {
         // Se muestra una alerta exitosa
         swal({
           confirmButtonText: 'Aceptar',
           type: 'success',
           title: 'Su registro fue exitoso',
-          text: 'Ya tiene un nuevo usuario'
+          text: 'Se ha enviado un correo de verificación a su cuenta'
         });
       })
       .catch(error => {
@@ -89,7 +95,20 @@ window.visitorRegistration = {
   // Cerrar sesión
   signOut: () => {
     // Función de firebase para cerrar sesión
+<<<<<<< HEAD
+    firebase.auth().signOut()
+      .then(result =>{
+        // Enviara al usuario a la página principal (login 'index.html')
+        location.href = ('../index.html');
+      }).catch(error =>{
+        console.log('Error al cerrar sesión', error);
+      });
+  } 
+  
+};
+=======
     // firebase.auth().signOut()
     location.href = '../index.html';
   }
 };
+>>>>>>> upstream/master
