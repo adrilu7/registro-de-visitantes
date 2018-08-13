@@ -1,18 +1,14 @@
 visitorRegistration.initializeFirebase();
 
-const db = firebase.firestore();
-
-// Cerrar sesión
-// Se manda llamar el botón signout para detonar evento
-document.getElementById('signout').addEventListener('click', event => {
-// Para que no se recargue la pagina
-  event.preventDefault();
-  // Se manda llamar la funnción signOut
-  visitorRegistration.signOut();
-});
+db = firebase.firestore();
 
 const table = document.getElementById('table-registers');
 const registersRef = db.collection('register');
+const signOutBtn = document.getElementById('signout')
+
+signOutBtn.addEventListener('click' , event => {
+  visitorRegistration.signOut();
+})
 
 registersRef.get().then(function(querySnapshot) {
   querySnapshot.forEach(function(doc) {
@@ -35,38 +31,3 @@ registersRef.get().then(function(querySnapshot) {
 });
 
 
-// visitorRegistration.initializeFirebase();
-// db = firebase.firestore();
-
-//   Cerrar sesión
-// Se manda llamar el botón signout para detonar evento
-// document.getElementById('signout').addEventListener('click', event => {
-// Para que no se recargue la pagina
-// event.preventDefault();
-// Se manda llamar la funnción signOut
-// visitorRegistration.signOut();
-// });
-
-// const drawVisitors = () => {
-// firebase.auth().onAuthStateChanged(user => { 
-// if (user) { 
-// const registersRef = db.collection('register').orderBy('time', 'desc');
-// registersRef.get()
-// .then(element => {
-// let result = '';
-// element.forEach(register => {
-// result += `<tr>
-   
-// <td>${register.data().name}</td>
-// <td>${register.data().email}</td>
-// <td>${register.data().company}</td>
-// <td>${register.data().host}</td>
-// <td>${register.data().hour}</td>
-// </tr>`;
-// });
-// document.getElementById('table-registers').innerHTML = result;
-// });
-// }
-// });
-// };
-// drawVisitors();

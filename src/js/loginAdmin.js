@@ -27,14 +27,16 @@ window.visitorRegistration = {
       .catch(error => {
         let errorCode = error.code;
         let errorMessage = error.message;
+        // Error de contraseña incorrecta
         if (errorCode === 'auth/wrong-password') {
-          // Se muestra alerta de error si algun dato fue incorrecto
+          // Se muestra alerta de error según el dato incorrecto
           swal({
             confirmButtonText: 'Aceptar',
             type: 'error',
             title: 'Contraseña inválida',
             text: 'Inténtalo de nuevo'
           });
+          // Errores de usuario no encontrado o email inválido
         } else if (errorCode === 'auth/user-not-found' || errorCode === 'auth/invalid-email') {
           swal({
             confirmButtonText: 'Aceptar',
@@ -42,6 +44,7 @@ window.visitorRegistration = {
             title: 'Usuario inválido',
             text: 'Inténtalo de nuevo'
           });
+          // Error de correo electrónico ya en uso
         } else if (errorCode === 'auth/email-already-in-use') {
           swal({
             confirmButtonText: 'Aceptar',
@@ -64,6 +67,7 @@ window.visitorRegistration = {
       .catch((error) => {
         let errorCode = error.code;
         let errorMessage = error.message;
+        // Si marca error de contraseña incorrecta lanzará la siguiente alerta
         if (errorCode === 'auth/wrong-password') {
           swal({
             confirmButtonText: 'Aceptar',
@@ -71,6 +75,7 @@ window.visitorRegistration = {
             title: 'Contraseña inválida',
             text: 'Inténtalo de nuevo'
           });
+          // Si el error es de usuario no encontrado o email inválido mandara la sigueinte alerta
         } else if (errorCode === 'auth/user-not-found' || errorCode === 'auth/invalid-email') {
           swal({
             confirmButtonText: 'Aceptar',
@@ -81,16 +86,11 @@ window.visitorRegistration = {
         }
       });
   },
-
   // Cerrar sesión
   signOut: () => {
     // Función de firebase para cerrar sesión
-    firebase.auth().signOut()
-      .then(result =>{
-        // Enviara al usuario a la página principal (login 'index.html')
-        location.href = ('../index.html');
-      }).catch(error =>{
-        console.log('Error al cerrar sesión', error);
-      });
+    // firebase.auth().signOut()
+    location.href = '../index.html';
+
   }
-};
+}
