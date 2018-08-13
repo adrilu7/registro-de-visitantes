@@ -58,7 +58,7 @@ window.visitorRegistration = {
 
   // Se crea acceso para administrador
   loginAdmin: (emailAdmin, passwordAdmin) => {
-    // Función de firebase para comprobar usuario logeado 
+    // Función de firebase para comprobar usuario logeado
     firebase.auth().signInWithEmailAndPassword(emailAdmin, passwordAdmin)
       .then((result) => {
         // Si los datos son correctos se le enviara a rata página
