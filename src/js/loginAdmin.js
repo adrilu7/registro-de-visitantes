@@ -57,7 +57,7 @@ window.visitorRegistration = {
             type: 'error',
             title: 'Usuario ya registrado',
             text: 'Verifica tus datos'
-          });
+          }); 
         }
       });
   },
@@ -95,20 +95,10 @@ window.visitorRegistration = {
   // Cerrar sesión
   signOut: () => {
     // Función de firebase para cerrar sesión
-<<<<<<< HEAD
-    firebase.auth().signOut()
-      .then(result =>{
-        // Enviara al usuario a la página principal (login 'index.html')
-        location.href = ('../index.html');
-      }).catch(error =>{
-        console.log('Error al cerrar sesión', error);
-      });
-  } 
-  
-};
-=======
-    // firebase.auth().signOut()
-    location.href = '../index.html';
-  }
-};
->>>>>>> upstream/master
+      // firebase.auth().signOut()
+      location.href = '../index.html';
+    
+} 
+}
+
+

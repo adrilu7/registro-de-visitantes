@@ -26,6 +26,7 @@ registerBtn.addEventListener('click', () => {
   })
     .then(function(docRef) {
       console.log('Document written with ID: ', docRef.id);
+      location.href = '../views/Cam.html'
     })
     .catch(function(error) {
       console.error('Error adding document: ', error);

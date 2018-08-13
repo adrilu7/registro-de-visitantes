@@ -2,8 +2,11 @@
   let streaming = false,
     video = document.querySelector('#video'),
     canvas = document.querySelector('#canvas'),
-    photo = document.querySelector('#photo'),
+    // photo = document.querySelector('#photo'),
     startbutton = document.querySelector('#startbutton'),
+    firstSec = document.getElementById('section1');
+    secondSec = document.getElementById('section2');
+    let teminar = document.getElementById('teminar');
     width = 320,
     height = 0;
 
@@ -40,6 +43,9 @@
       canvas.setAttribute('height', height);
       streaming = true;
     }
+    // canvas.style.display ='none';
+    // photo.style.display = 'none';
+    // secondSec.style.display = 'none'
   }, false);
 
   takepicture = () => {
@@ -47,11 +53,17 @@
     canvas.height = height;
     canvas.getContext('2d').drawImage(video, 0, 0, width, height);
     var data = canvas.toDataURL('image/png');
-    photo.setAttribute('src', data);
+    firstSec.classList.add('ocultar');
+    secondSec.classList.remove('ocultar');
+    // photo.setAttribute('src', data);
   };
+
 
   startbutton.addEventListener('click', (ev) => {
     takepicture();
     ev.preventDefault();
+    terminar.classList.remove('ocultar');
   }, false);
+
+
 })();
