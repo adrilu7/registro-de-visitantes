@@ -51,7 +51,7 @@ window.visitorRegistration = {
             type: 'error',
             title: 'Usuario ya registrado',
             text: 'Verifica tus datos'
-          });
+          }); 
         }
       });
   },
@@ -89,8 +89,8 @@ window.visitorRegistration = {
   // Cerrar sesión
   signOut: () => {
     // Función de firebase para cerrar sesión
-    // firebase.auth().signOut()
-    location.href = '../index.html';
-
-  }
+      // firebase.auth().signOut()
+      location.href = '../index.html';
+    
+} 
 }
