@@ -1,5 +1,5 @@
 
-  
+
   .title {
     color: #17202A;
     text-align: center;
@@ -7,7 +7,7 @@
     font-size: 50px;
     font-family: 'Monoton', cursive;
   }
-  
+
   .row {
     -moz-animation: rotation ease 10s infinite;
     -webkit-animation: rotation ease 10s infinite;
@@ -22,7 +22,7 @@
       text-align: center;
   }
 
-  
+
   @-webkit-keyframes rotation {
     0% {
       -webkit-transform: rotate(0deg);
@@ -72,3 +72,17 @@
   padding: 10px;
 }
 
+#miCameraOnline video{
+  width:320px;
+  height:240px;
+  margin:15px;
+  float:left;
+}
+#miCameraOnline canvas{
+  width:320px;
+  height:240px;
+  margin:15px;
+  float:left;}
+#miCameraOnline button{
+  clear:both;
+  margin:30px;}

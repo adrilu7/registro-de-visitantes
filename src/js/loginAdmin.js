@@ -57,14 +57,14 @@ window.visitorRegistration = {
             type: 'error',
             title: 'Usuario ya registrado',
             text: 'Verifica tus datos'
-          }); 
+          });
         }
       });
   },
 
   // Se crea acceso para administrador
   loginAdmin: (emailAdmin, passwordAdmin) => {
-    // Función de firebase para comprobar usuario logeado 
+    // Función de firebase para comprobar usuario logeado
     firebase.auth().signInWithEmailAndPassword(emailAdmin, passwordAdmin)
       .then((result) => {
         // Si los datos son correctos se le enviara a rata página
@@ -92,10 +92,10 @@ window.visitorRegistration = {
         }
       });
   },
-  
   // Cerrar sesión
   signOut: () => {
     // Función de firebase para cerrar sesión
+<<<<<<< HEAD
     firebase.auth().signOut()
       .then(result =>{
         // Enviara al usuario a la página principal (login 'index.html')
@@ -106,3 +106,9 @@ window.visitorRegistration = {
   } 
   
 };
+=======
+    // firebase.auth().signOut()
+    location.href = '../index.html';
+  }
+};
+>>>>>>> upstream/master

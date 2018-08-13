@@ -1,11 +1,23 @@
 visitorRegistration.initializeFirebase();
 
 db = firebase.firestore();
+<<<<<<< HEAD
 // Se declara una const para llamar donde se imprimirá la tabla de visitantes
 const table = document.getElementById('table-registers');
 // Se llama la colleccion register por orden descendente de tiempo 
 const registersRef = db.collection('register').orderBy('dateTime', 'desc');
 // Se manda traer la colección register
+=======
+
+const table = document.getElementById('table-registers');
+const registersRef = db.collection('register');
+const signOutBtn = document.getElementById('signout')
+
+signOutBtn.addEventListener('click' , event => {
+  visitorRegistration.signOut();
+})
+
+>>>>>>> upstream/master
 registersRef.get().then(function(querySnapshot) {
   // Se itera 
   querySnapshot.forEach(function(doc) {
@@ -25,4 +37,10 @@ registersRef.get().then(function(querySnapshot) {
       <td>${hour}</td>
       </tr>`;
   });
+<<<<<<< HEAD
 });
+=======
+});
+
+
+>>>>>>> upstream/master
