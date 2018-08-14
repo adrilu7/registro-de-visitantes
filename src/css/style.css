@@ -1,13 +1,6 @@
 
 
-  .title {
-    color: #17202A;
-    text-align: center;
-    margin-top: 20%;
-    font-size: 50px;
-    font-family: 'Monoton', cursive;
-  }
-
+  
   .row {
     -moz-animation: rotation ease 10s infinite;
     -webkit-animation: rotation ease 10s infinite;
@@ -21,34 +14,27 @@
       font-size: 30px;
       text-align: center;
   }
-
-
-  @-webkit-keyframes rotation {
-    0% {
-      -webkit-transform: rotate(0deg);
-    }
-    20% {
-      -webkit-transform: rotate(1000deg);
-    }
-    40% {
-      -webkit-transform: rotate(360deg);
-    }
+  .tipo{
+    font-family: 'Roboto', sans-serif;
   }
+
+
+ 
   /*FORMULARIO*/
-.cuerpo{
-  background-image: url("../image/pexels-photo-380768.jpeg");
-}
+  h1{
+    color: white;
+    margin-top: 35px;
+    margin-left: 35px;
+  }
+
 .formulario{
-  background-color: white;
-  width: 30%;
   display: block;
-  margin-left: auto;
   margin-right: auto;
   display: table;
   height: 200px;
-  margin-top: 170px;
-  width: 50%;
+  margin-top: 10px;
   padding: 38px;
+  margin-left: 130px;
 }
 .centrado{
   display: table;
@@ -56,20 +42,57 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+.logo2{
+  width: 35%;
+  margin: 17px;
+  margin-top: 90px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.boton-registro{
+  background-color: #333;
+  border: transparent;
+  float: right;
+  margin-right: -247px;
+  width: 80%;
+  height: 45px;
+  font-size: 23px;
+  margin-top: 10px;
+}
+.label-registro label{
+  margin-top: 10px;
+  color: white;
+  font-size: 22px;
+}
+.input-registro input{
+  width: 220%;
+  height: 43px;
+  box-shadow: 2px 11px 28px 0px rgba(51, 51, 51, 0.63);
+  margin-bottom: 20px;
+}
  /*INDEX*/
  .cuerpo1{
-   background-image: url("../image/pexels-photo-442574.jpeg");
+   background-image: url("../image/fondo.jpg");
  }
  .boton-ingreso{
-  margin-top: 700px;
+  margin-top: 440px;
   margin-left: auto;
   font-size: 54px;
   color: white;
-  margin-right: auto;
+  margin-right: 150px;
   display: block;
-  background: black;
+  background: #333333;
   padding: 10px;
+  width: 70%;
+  box-shadow: 2px 11px 28px 0px rgba(51,51,51,1);
+}
+.logo{
+  width: 35%;
+  margin: 17px;
+  float: right;
+  margin-top: -400px;
+  margin-right: 150px;
+  
 }
 
 #miCameraOnline video{
@@ -90,3 +113,66 @@
   .ocultar{
     display: none;
   }
+/*tomar foto*/  
+.instrucciones{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 39px 130px;
+}
+.video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60%;
+  height: 450px;
+  background: #ffffff87;
+}
+.boton-foto{
+  background-color: #333;
+  border: transparent;
+  float: right;
+  margin-right: 153px;
+  height: 45px;
+  font-size: 23px;
+  margin-top: 10px;
+}
+.boton-foto-exito{
+  background-color: #333;
+  border: transparent;
+  height: 45px;
+  font-size: 23px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 310px;
+}
+.ok{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+.escritorio{
+  display: none
+}
+.tableta{
+  display: block;
+}
+ 
+
+@media only screen and (min-width: 992px) {
+
+
+}
+@media only screen and (min-width: 1025px) {
+  .escritorio{
+    display: block
+  }
+  .tableta{
+    display: none;
+  }
+  
+}
+
