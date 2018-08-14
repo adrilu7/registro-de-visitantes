@@ -96,9 +96,10 @@ Propuesta Visual
 ![Sketch](src/image/flujo2.jpg)
 
 ## Prototipo
+https://marvelapp.com/42517j6/screen/46729260
+
 https://www.figma.com/proto/Rkkx7RyM9oSChuudpiSJ7YKe/Untitled?node-id=1%3A2&scaling=min-zoom
 
-https://marvelapp.com/42517j6/screen/46729260
 ## Colores y Tipografia
 ### Tipografia
 ![Sketch](src/image/tipo1.jpg)
