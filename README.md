@@ -97,6 +97,8 @@ Propuesta Visual
 
 ## Prototipo
 https://www.figma.com/proto/Rkkx7RyM9oSChuudpiSJ7YKe/Untitled?node-id=1%3A2&scaling=min-zoom
+
+https://marvelapp.com/42517j6/screen/46729260
 ## Colores y Tipografia
 ### Tipografia
 ![Sketch](src/image/tipo1.jpg)
@@ -106,7 +108,12 @@ https://www.figma.com/proto/Rkkx7RyM9oSChuudpiSJ7YKe/Untitled?node-id=1%3A2&scal
 ![Sketch](src/image/color.jpg)
 ### Identidad
 ![Sketch](src/image/identidad.jpg)
+
+## Testeo de prototipo
+https://1drv.ms/f/s!AvpkZZDq406qggCh_ISbH1J-nDFK
+
 ## Justificación 
+
 
 
 
