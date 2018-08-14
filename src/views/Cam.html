@@ -5,25 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--GOOGLE-FONT-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
   <title>Registro de visitas</title>
 </head>
 
-<body>
+<body class="cuerpo1 tipo">
+    <h1>
+      Registro para visitante
+    </h1>
   <section id="section1">
-    <p>Instrucciones</p>
-    <video id="video"></video>
+    <p class="instrucciones">Centra tu rostro dentro del recuadro, cuando estés listo da TAP al botón CAPTURAR FOTO</p>
+    <video class="video" id="video"></video>
     </br>
-    <button id="startbutton">Tomar Foto</button>
+    <button id="startbutton" class="btn btn-primary boton-foto">
+      <img src="../image/cam1era.png" alt="camara">
+      Capturar Foto</button>
   </section>
 
   <section id="section2" class= "ocultar">
     <canvas id="canvas"></canvas>
-    <button id="terminar">Registrar</button>
+    <p class="instrucciones">
+       Captura de foto ¡EXITOSA!
+    </P>
+    <img class="ok" src="../image/thumb-up.png" alt="ok">
+    <button id="terminar" class="btn btn-primary boton-foto-exito">Registrar Visita</button>
   </section>
+
+  <footer>
+      <img class="logo2" src="../image/logo.png" alt="logo">
+  </footer>
 
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="../js/Cam.js"></script>
+  
 </body>
 
 </html>
