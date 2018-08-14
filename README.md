@@ -101,6 +101,7 @@ https://www.figma.com/proto/Rkkx7RyM9oSChuudpiSJ7YKe/Untitled?node-id=1%3A2&scal
 ### Tipografia
 ![Sketch](src/image/tipo1.jpg)
 ![Sketch](src/image/tipo2.jpg)
+
 ### Color
 ![Sketch](src/image/color.jpg)
 ### Identidad
