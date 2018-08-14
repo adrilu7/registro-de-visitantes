@@ -117,6 +117,31 @@ https://1drv.ms/f/s!AvpkZZDq406qggCh_ISbH1J-nDFK
 
 
 ## Justificación 
+### Paleta de colores 
+Se eligió trabajar con los siguientes tonos:
+
+Gris #333, se considera un color confiable, maduro e inteligente. 
+
+Verde #, se considera un color relajante y refrescante que induce a quién lo contempla sensaciones de serenidad y armonía. 
+
+En conjunto estos colores transmite al cliente en este caso a nuestro visitante:, buscando que pueda finalizar el registro con éxito.
+
+También son utilizados como acento de color para que exista elementos los cuales se consideran como importantes para que resalten y sirvan como apoyo hacia el visitante al momento de ir completo su registro.
+
+Se busca que exista armonía entre los colores, y principalmente contraste para que la lectura sea digerible.
+
+### Composición
+Se clasifico y jerarquizo la información para que la posición de los elementos ayudara al visitante a una correcta navegación.
+
+Se tienen dos login, los cuales solo se les muestra a nuestro usuario indicado, ya que toda la interface para visitante se mostrara en un dispositivo: Tableta, y nuestro administrador tendrá acceso a través de un dispositivo de escritorio, por lo tanto para no tener dos ligar y evitar mostrar botones los cuales no ocuparan ya sean los visitantes o administrador se hace uso de medias querys que nos ayudan a mostrar solo cierta información en tableta y escritorio.
+
+Se busca que el usuario tenga que leer lo menos posible, para hacer más eficiente su registro, esto se logra a través de iconografía.
+
+Se propone tener un pantalla de inicio con un solo botón de registro, ya que se quiere proteger la información la cual el visitante tendrá que brindar para tener un acceso exitoso, ya que se quiere evitar que cualquiera que pase junto con a las tabletas pueda identificar la información que se tendrá como base de datos para el administrador.
+### Identidad
+Se hace uso de sinónimos de unidad, comunidad, equipo, grupo, etc, ya que después de una previa información un co-working representa un gran grupo de personas, colaborando en equipo y es lo que se quiere representar en el logotipo, el numero 28 equivale al número de la ubicación del edificio. 
+
+
 
 
 
