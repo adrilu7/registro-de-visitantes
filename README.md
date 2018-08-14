@@ -2,6 +2,7 @@ Registro para un We-Working
 ==========
 --------------------
  Introducción
+ ==========
 Co-working es un espacio de trabajo compartido e inspirador, que impulsa y fomenta la co-creación, y donde siempre hay alguien preocupado en crear Comunidad y valor añadido. Coworking es la práctica por la cual profesionales que no comparten ni empresa ni sector de actividad, se unen para trabajar juntos en un mismo espacio, pero aportándose valor mutuamente a través de las conexiones generadas.
  
  Investigación de Campo
