@@ -5,7 +5,7 @@
     startbutton = document.querySelector('#startbutton'),
     firstSec = document.getElementById('section1');
   secondSec = document.getElementById('section2');
-  let teminar = document.getElementById('teminar');
+  terminar = document.getElementById('terminar');
   width = 320,
   height = 0;
   // obtener video, compatibilidad de navegadores
@@ -62,4 +62,17 @@
     ev.preventDefault();
     terminar.classList.remove('ocultar');
   }, false);
+
+ terminar.addEventListener('click', event => {
+   swal({
+     title: 'Registro exitoso',
+     text: 'Tus datos se han registrado correctamente',
+     icon: 'success',
+     button: 'Ok',
+   });
+   let btn = document.getElementsByClassName('swal-button')
+   btn[0].addEventListener('click', event => {
+    location.href = '../index.html';
+   })
+  })
 })();
