@@ -1,8 +1,8 @@
-### Registro para un We-Working
-
-
-![Vista](src/image/Registro.png)
+Registro para un We-Working
+==========
 --------------------
+![Vista](src/image/Registro.png)
+
 
  ### Introducción
  ==========
