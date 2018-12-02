@@ -119,8 +119,7 @@ https://1drv.ms/f/s!AvpkZZDq406qggCh_ISbH1J-nDFK
 
 
 
-## Justificación
-=======
+
 ## Justificación 
 ### Paleta de colores 
 Se eligió trabajar con los siguientes tonos:
