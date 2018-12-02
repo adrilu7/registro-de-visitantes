@@ -1,10 +1,12 @@
 Registro para un We-Working
 ==========
 --------------------
+![Vista](src/image/Registro.png)
+
  Introducción
  ==========
 Co-working es un espacio de trabajo compartido e inspirador, que impulsa y fomenta la co-creación, y donde siempre hay alguien preocupado en crear Comunidad y valor añadido. Coworking es la práctica por la cual profesionales que no comparten ni empresa ni sector de actividad, se unen para trabajar juntos en un mismo espacio, pero aportándose valor mutuamente a través de las conexiones generadas.
- 
+
  Investigación de Campo
 ==========
 Se realizaron cuatro visitas a diferentes CoWorking de los cuales se obtuvieron los siguientes resultados:
@@ -19,10 +21,10 @@ Su sistema de registro sigue siendo a través de una libreta en la cual tanto el
 El sistema de registro en este wework consiste en dos filtros, el primero es el previo registro con los policías en el cual se te pide nombre, asunto, y hora de entrada, posteriormente haces entrega de una identificación para que se te brinde una credencial de invitado, posteriormente se te informa el piso al que vas, para acceder debes pedir a otro policía que te permita el acceso, ya en el piso indicado se te pide un registro a través de una tableta donde se te solicitan datos puntuales como nombre, correo, empresa y persona a la que visitas, el detalle es que si no cuentas con algún dato no se te permitirá acceder, si tu registro es exitoso una persona saldrá por ti.
 ### Co-working “WeWork” (Montes Urales):
 
-Su sistema de registro es muy parecido al Insurgentes el detalle es que aquí se registra en una tableta, los datos que se piden son nombre, correo, empresa y persona a quien se visita, sin embargo aquí las personas que ya cuentan con un registro previo y que tienen una asistencia frecuente deben seguir registrándose en una libreta con los mismos datos lo cual hace deficiente el sistema de registro digital, ya que se sigue utilizando un registro tradicional: en una libreta.  
+Su sistema de registro es muy parecido al Insurgentes el detalle es que aquí se registra en una tableta, los datos que se piden son nombre, correo, empresa y persona a quien se visita, sin embargo aquí las personas que ya cuentan con un registro previo y que tienen una asistencia frecuente deben seguir registrándose en una libreta con los mismos datos lo cual hace deficiente el sistema de registro digital, ya que se sigue utilizando un registro tradicional: en una libreta.
 ### Co-working “Terminal 1”:
 Aquí en Terminal 1 se  acabó un registro en libreta en el cual se pide la siguiente información: Nombre, a quien se visita, hora de acceso y asunto, la información recabada no tiene un uso posterior simplemente es como un protocolo para tener acceso.
-Posteriormente se pasa a una sala de espera lugar donde deberás esperar a que  baja la persona a la que vienes a visitar, ella será contactada por la recepcionista a través de una llamada. 
+Posteriormente se pasa a una sala de espera lugar donde deberás esperar a que  baja la persona a la que vienes a visitar, ella será contactada por la recepcionista a través de una llamada.
 
 
 ## Entrevista a dos trabajadores de un Co-working:
@@ -34,7 +36,7 @@ Muchas veces prefieren el solo mandar un “Whats-app” a la persona que visita
 
 Como persona ya registrada muchas veces se tiene el inconveniente de olvidar su tarjeta de acceso lo cual provoca el depender de alguien más que le preste su tarjeta y poder acceder a todas las instalaciones y servicios. Lo que le hace sentir limitado para poder moverse dentro de las instalaciones.
 
-Resulta muy funcional el que el proceso de registro sea digital porque ahorra tiempo y evita el estar buscando una identificación o el escribir datos. 
+Resulta muy funcional el que el proceso de registro sea digital porque ahorra tiempo y evita el estar buscando una identificación o el escribir datos.
 
 ## Cliente incognito
 Se visitó un WeWork (Reforma Latino), se realizaron dos filtros de registro el primero fue con dos policías los cuales te piden una identificación y toman nota de tus datos como: nombre, hora, lugar que visitas, asunto, posteriormente se te indica el elevador que corresponde al piso que visitas, al llegar hubo un segundo filtro en el cual debes registrarte de manera digital aquí los datos a registrar son: nombre, correo, empresa y persona a quien se visita, el detalle fue que no contaba con uno de los datos por lo cual ya no pude acceder.
@@ -49,7 +51,7 @@ Propuesta
 ======
 
 ### Historias de Usuario
-**Como** visitante de un Co-Working, **quiero** agilizar mi registro **para** que mi acceso a las instalaciones rápido. 
+**Como** visitante de un Co-Working, **quiero** agilizar mi registro **para** que mi acceso a las instalaciones rápido.
 
 **Como** visitante de un Co-Working,**quiero** evitar dejar una identificación **para** no dedicar tiempo en buscarla dentro mi bolso/mochila.
 
@@ -67,7 +69,7 @@ Propuesta
 -	Julián trabaja como editor en el piso 4 de un We-Working, pero Julián es demasiado distraído, teniendo muchos problemas en recordar en llevar siempre su tarjeta de acceso, lo cual le trae muchos problemas como el  no tener acceso a servicios tan básicos como tomar agua, ir al baño o el simple hecho de ingresar a su espacio de trabajo, siempre que olvida su tarjeta de acceso debe recurrir a un amigo o a alguien de su oficina para que funcione como representante y le preste su tarjeta, lo cual provoca tanto incomodidad a Julián  y a sus compañeros de trabajo.
 
 
--	Valeria es una trabajadora de un We-Working, ella realiza una gran lista de tareas, una de ellas consiste en estar actualizando de manera constante su archivo de Excel, donde lleva un conteo de horas de las personas que en el We-Working, pero le resulta un poco tedioso el estar vaciando toda la información del cuaderno de registro hacia su archivo de Excel, al mismo tiempo debe estar al pendiente del quien cumple años en el mes, ya que les gusta celebrarles a todos los cumpleañeros del mes, todas estas tareas resultan un poco agotadoras y a las cuales les debe dedicar mucho tiempo. 
+-	Valeria es una trabajadora de un We-Working, ella realiza una gran lista de tareas, una de ellas consiste en estar actualizando de manera constante su archivo de Excel, donde lleva un conteo de horas de las personas que en el We-Working, pero le resulta un poco tedioso el estar vaciando toda la información del cuaderno de registro hacia su archivo de Excel, al mismo tiempo debe estar al pendiente del quien cumple años en el mes, ya que les gusta celebrarles a todos los cumpleañeros del mes, todas estas tareas resultan un poco agotadoras y a las cuales les debe dedicar mucho tiempo.
 
 ### Soluciones
 Base a toda la información recabada se propone lo siguiente:
@@ -116,6 +118,9 @@ https://www.figma.com/proto/Rkkx7RyM9oSChuudpiSJ7YKe/Untitled?node-id=1%3A2&scal
 https://1drv.ms/f/s!AvpkZZDq406qggCh_ISbH1J-nDFK
 
 
+
+## Justificación
+=======
 ## Justificación 
 ### Paleta de colores 
 Se eligió trabajar con los siguientes tonos:
@@ -140,7 +145,6 @@ Se busca que el usuario tenga que leer lo menos posible, para hacer más eficien
 Se propone tener un pantalla de inicio con un solo botón de registro, ya que se quiere proteger la información la cual el visitante tendrá que brindar para tener un acceso exitoso, ya que se quiere evitar que cualquiera que pase junto con a las tabletas pueda identificar la información que se tendrá como base de datos para el administrador.
 ### Identidad
 Se hace uso de sinónimos de unidad, comunidad, equipo, grupo, etc, ya que después de una previa información un co-working representa un gran grupo de personas, colaborando en equipo y es lo que se quiere representar en el logotipo, el numero 28 equivale al número de la ubicación del edificio. 
-
 
 
 
